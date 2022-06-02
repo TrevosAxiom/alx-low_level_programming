@@ -1,8 +1,7 @@
 #include <stdio.h>
 /*
-* This program is to print out a string
-* Programming is fun BTW
-* Hard? Yes, but also FUN
+ * main for main block
+ * Return value: 0
 */
 int main(void)
 {
