@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Main - Program begins here
+ * main - Program begins here
  * Return: This code returns 0
  * time.h was included
  * stdlib.h was included
@@ -15,7 +15,9 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n < 0)
 printf("%d is negative\n", n);
-else
+else if (n > 0)
 printf("%d is positive\n", n);
+else
+printf("%i is zero\n", n);
 return (0);
 }
