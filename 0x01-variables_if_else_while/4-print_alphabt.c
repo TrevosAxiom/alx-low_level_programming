@@ -12,8 +12,10 @@ int lcase;
 
 for (lcase = 'a'; lcase <= 'z'; lcase++)
 {
-if (lcase != 'e' || lcase != 'q')
+if (lcase != 'e' && lcase != 'q')
+{
 putchar (lcase);
+}
 }
 
 putchar ('\n');
