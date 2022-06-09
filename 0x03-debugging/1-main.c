@@ -3,6 +3,7 @@
 /**
 * main - causes an infinite loop
 * Return: 0
+* Description: Tesetr
 */
 
 int main(void)
