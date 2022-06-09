@@ -16,8 +16,8 @@ while (i < n && n > 0)
 num = 0;
 while (num < n)
 {
-    _putchar('#');
-    num++;
+_putchar('#');
+num++;
 }
 
 _putchar('\n');
